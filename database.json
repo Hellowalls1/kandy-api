@@ -1,0 +1,33 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "placeholder"
+         }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "placeholder"
+         }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "placeholder"
+         }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "name": "placeholder"
+         }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "placeholder"
+         }
+    ]
+    
+}
