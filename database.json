@@ -2,13 +2,59 @@
     "products": [
         {
             "id": 1,
-            "name": "placeholder"
-         }
+            "name": "Big Red",
+            "productTypeId": "3"
+        },
+        {
+            "id": 2,
+            "name": "Dentyne",
+            "productTypeId": "3"
+        },
+        {
+            "id": 3,
+            "name": "Mars Bar",
+            "productTypeId": "1"
+        },
+        {
+            "id": 4,
+            "name": "Kit Kat",
+            "productTypeId": "1"
+        },
+        {
+            "id": 5,
+            "name": "Warhead",
+            "productTypeId": "2"
+        },
+        {
+            "id": 6,
+            "name": "Peppermint",
+            "productTypeId": "2"
+        },
+        {
+            "id": 7,
+            "name": "Skittle",
+            "productTypeId": "4"
+        },
+        {
+            "id": 8,
+            "name": "Airhead",
+            "productTypeId": "4"
+        }
     ],
     "locations": [
-        {
+         {
             "id": 1,
-            "name": "placeholder"
+            "name": "Mall",
+            "location": "100 Main St.",
+            "squareFeet": 320,
+            "handicap": "True"
+         },
+         {
+             "id": 2,
+             "name": "BoardWalk",
+             "location": "3207 Main St.",
+             "squareFeet": 500,
+             "handicap": "True"
          }
     ],
     "employees": [
@@ -20,7 +66,19 @@
     "productTypes": [
         {
             "id": 1,
-            "name": "placeholder"
+            "name": "Hard Candy"
+         },
+        {
+            "id": 2,
+            "name": "Chocolate"
+         },
+        {
+            "id": 3,
+            "name": "Gum"
+         },
+        {
+            "id": 4,
+            "name": "Soft Candy"
          }
     ],
     "customers": [
