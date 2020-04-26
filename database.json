@@ -129,17 +129,19 @@
       "password": "tim",
       "name": "Tim TIm",
       "id": 2
+    },
+    {
+      "email": "roy@roy.com",
+      "password": "roy",
+      "name": "roy roy",
+      "id": 3
     }
   ],
-  "orders": [
+  "customerOrders": [
     {
-    "id": 1,
-    "customerId": 2,
-    "candyId":
-
-
-
-
+      "id": 1,
+      "customerId": 2,
+      "productId": 1
     }
-  ]
+    ]
 }
