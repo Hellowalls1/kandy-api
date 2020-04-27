@@ -3,42 +3,50 @@
     {
       "id": 1,
       "name": "Big Red",
-      "productTypeId": 3
+      "productTypeId": 3,
+      "price": 12
     },
     {
       "id": 2,
       "name": "Dentyne",
-      "productTypeId": 3
+      "productTypeId": 3,
+      "price": 12
     },
     {
       "id": 3,
       "name": "Mars Bar",
-      "productTypeId": 1
+      "productTypeId": 1,
+      "price": 12
     },
     {
       "id": 4,
       "name": "Kit Kat",
-      "productTypeId": 1
+      "productTypeId": 1,
+      "price": 12
     },
     {
       "id": 5,
       "name": "Warhead",
-      "productTypeId": 2
+      "productTypeId": 2,
+      "price": 12
     },
     {
       "id": 6,
       "name": "Peppermint",
-      "productTypeId": 2
+      "productTypeId": 2,
+      "price": 12
     },
     {
       "id": 7,
       "name": "Skittle",
-      "productTypeId": 4
+      "productTypeId": 4,
+      "price": 12
     },
     {
       "id": 8,
       "name": "Airhead",
-      "productTypeId": 4
+      "productTypeId": 4,
+      "price": 12
     }
   ],
   "locations": [
@@ -142,6 +150,36 @@
       "id": 1,
       "customerId": 2,
       "productId": 1
+    },
+    {
+      "customerId": 3,
+      "productId": 2,
+      "id": 2
+    },
+    {
+      "customerId": 3,
+      "productId": 1,
+      "id": 3
+    },
+    {
+      "customerId": 3,
+      "productId": 3,
+      "id": 4
+    },
+    {
+      "customerId": 1,
+      "productId": 2,
+      "id": 5
+    },
+    {
+      "customerId": 1,
+      "productId": 3,
+      "id": 6
+    },
+    {
+      "customerId": 1,
+      "productId": 6,
+      "id": 7
     }
-    ]
+  ]
 }
