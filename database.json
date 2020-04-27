@@ -1,91 +1,147 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Big Red",
-            "productTypeId": "3"
-        },
-        {
-            "id": 2,
-            "name": "Dentyne",
-            "productTypeId": "3"
-        },
-        {
-            "id": 3,
-            "name": "Mars Bar",
-            "productTypeId": "1"
-        },
-        {
-            "id": 4,
-            "name": "Kit Kat",
-            "productTypeId": "1"
-        },
-        {
-            "id": 5,
-            "name": "Warhead",
-            "productTypeId": "2"
-        },
-        {
-            "id": 6,
-            "name": "Peppermint",
-            "productTypeId": "2"
-        },
-        {
-            "id": 7,
-            "name": "Skittle",
-            "productTypeId": "4"
-        },
-        {
-            "id": 8,
-            "name": "Airhead",
-            "productTypeId": "4"
-        }
-    ],
-    "locations": [
-         {
-            "id": 1,
-            "name": "Mall",
-            "location": "100 Main St.",
-            "squareFeet": 320,
-            "handicap": "True"
-         },
-         {
-             "id": 2,
-             "name": "BoardWalk",
-             "location": "3207 Main St.",
-             "squareFeet": 500,
-             "handicap": "True"
-         }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "placeholder"
-         }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "name": "Hard Candy"
-         },
-        {
-            "id": 2,
-            "name": "Chocolate"
-         },
-        {
-            "id": 3,
-            "name": "Gum"
-         },
-        {
-            "id": 4,
-            "name": "Soft Candy"
-         }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "placeholder"
-         }
+  "products": [
+    {
+      "id": 1,
+      "name": "Big Red",
+      "productTypeId": 3
+    },
+    {
+      "id": 2,
+      "name": "Dentyne",
+      "productTypeId": 3
+    },
+    {
+      "id": 3,
+      "name": "Mars Bar",
+      "productTypeId": 1
+    },
+    {
+      "id": 4,
+      "name": "Kit Kat",
+      "productTypeId": 1
+    },
+    {
+      "id": 5,
+      "name": "Warhead",
+      "productTypeId": 2
+    },
+    {
+      "id": 6,
+      "name": "Peppermint",
+      "productTypeId": 2
+    },
+    {
+      "id": 7,
+      "name": "Skittle",
+      "productTypeId": 4
+    },
+    {
+      "id": 8,
+      "name": "Airhead",
+      "productTypeId": 4
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Mall",
+      "location": "100 Main St.",
+      "squareFeet": 320,
+      "handicap": true
+    },
+    {
+      "id": 2,
+      "name": "BoardWalk",
+      "location": "3207 Main St.",
+      "squareFeet": 500,
+      "handicap": true
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "placeholder",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 10
+    },
+    {
+      "name": "asdf",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 12,
+      "id": 2
+    },
+    {
+      "name": "asdf",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 54,
+      "id": 3
+    },
+    {
+      "name": "Bobby",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": false,
+      "hourlyRate": 2,
+      "id": 4
+    },
+    {
+      "name": "Tim",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 14,
+      "id": 5
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate"
+    },
+    {
+      "id": 3,
+      "name": "Gum"
+    },
+    {
+      "id": 4,
+      "name": "Soft Candy"
+    }
+  ],
+  "customers": [
+    {
+      "email": "Tim@timmy.com",
+      "password": "Timmy",
+      "name": "Tim George",
+      "id": 1
+    },
+    {
+      "email": "TIm@tim.com",
+      "password": "tim",
+      "name": "Tim TIm",
+      "id": 2
+    },
+    {
+      "email": "roy@roy.com",
+      "password": "roy",
+      "name": "roy roy",
+      "id": 3
+    }
+  ],
+  "customerOrders": [
+    {
+      "id": 1,
+      "customerId": 2,
+      "productId": 1
+    }
     ]
-    
 }
